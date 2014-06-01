@@ -1,19 +1,8 @@
 
-function namespace(ns, context) {
-
-    ns.split('.').reduce(
-        function(ctx, segment) {
-            ctx[segment] = ctx[segment] || {};
-            return ctx[segment];
-        },
-            context || this
-    )
-}
-
 function init(context) {
-©
+
     context = context || this;
-    namespace('Array.prototype', context);
+    require('./namespace').namespace('Array.prototype', context);
 
     context.Array.prototype.find = function(fn) {
         for (var i = 0; i < this.length; ++i) {
