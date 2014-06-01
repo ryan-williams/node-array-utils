@@ -12,4 +12,4 @@
     )
   };
 
-})((typeof module !== 'undefined' && typeof module.exports !== 'undefined') ? module.exports : (this['namespace'] = {}));
+})((typeof module !== 'undefined' && typeof module.exports !== 'undefined') ? module.exports : (this['./namespace'] = {}));

@@ -3,7 +3,7 @@
   function init(context) {
 
     context = context || this;
-    require('namespace').namespace('Array.prototype', context);
+    require('./namespace').namespace('Array.prototype', context);
 
     context.Array.prototype.find = function (fn) {
       for (var i = 0; i < this.length; ++i) {
@@ -40,4 +40,4 @@
   init();
 
   exports.init = init;
-})((typeof module !== 'undefined' && typeof module.exports !== 'undefined') ? module.exports : (this['util/img-mapping/foreground@2x'] = {}));
+})((typeof module !== 'undefined' && typeof module.exports !== 'undefined') ? module.exports : (this['array-utils'] = {}));

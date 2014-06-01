@@ -1,6 +1,6 @@
 {
   "name": "array-utils",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Hangs some useful methods off of Array.prototype.",
   "keywords": [ "array" ],
   "homepage": "https://github.com/ryan-williams/node-array-utils",
