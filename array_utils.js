@@ -36,4 +36,6 @@ function init(context) {
 
 init();
 
-exports.init = init;
+if ((typeof module !== 'undefined') && (typeof module.exports !== 'undefined')) {
+  exports.init = init;
+}
