@@ -1,12 +1,16 @@
 {
-    "name": "array-utils",
-    "version": "0.0.4",
-    "description": "Hangs some useful methods off of Array.prototype.",
-    "keywords": [ "array" ],
-    "homepage": "https://github.com/ryan-williams/node-array-utils",
-    "author": {
-        "name": "Ryan Williams",
-        "email": "nobigdealstyle@gmail.com"
-    },
-    "main": "./array_utils.js"
+  "name": "array-utils",
+  "version": "0.0.4",
+  "description": "Hangs some useful methods off of Array.prototype.",
+  "keywords": [ "array" ],
+  "homepage": "https://github.com/ryan-williams/node-array-utils",
+  "author": {
+    "name": "Ryan Williams",
+    "email": "nobigdealstyle@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ryan-williams/node-array-utils"
+  },
+  "main": "./array_utils.js"
 }
